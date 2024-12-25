@@ -130,6 +130,24 @@ DEVICE   = RZV2L
 DDR_TYPE = DDR4
 DDR_SIZE = 2GB_1PCS
 SWIZZLE  = T1BC
+else ifeq ("$(BOARD)", "RZV2L_LY")
+#--------------------------------------
+# RZ/V2L Smarc board
+#--------------------------------------
+FILENAME_ADD = _RZV2L_LY
+DEVICE   = RZV2L
+DDR_TYPE = DDR4
+DDR_SIZE = 2GB_1PCS
+SWIZZLE  = T1BC
+else ifeq ("$(BOARD)", "RZV2L_LY_PMIC")
+#--------------------------------------
+# RZ/V2L Smarc PMIC Edition board
+#--------------------------------------
+FILENAME_ADD = _RZV2L_LY_PMIC
+DEVICE   = RZV2L
+DDR_TYPE = DDR4
+DDR_SIZE = 2GB_1PCS
+SWIZZLE  = T1BC
 else ifeq ("$(BOARD)", "RZV2L_15MMSQ_DEV")
 #--------------------------------------
 # RZ/V2L 15MMSQ Dev board
