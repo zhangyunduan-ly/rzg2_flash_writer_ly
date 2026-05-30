@@ -110,6 +110,15 @@ DDR_TYPE = DDR4
 DDR_SIZE = 1GB_1PCS
 SWIZZLE  = T3BCUD2
 DEVICE_TYPE = 1
+else ifeq ("$(BOARD)", "RZG2UL_LY")
+#--------------------------------------
+# RZ/G2UL LinYang board DDR4 1GB
+#--------------------------------------
+FILENAME_ADD = _RZG2UL_LY
+DEVICE   = RZG2UL
+DDR_TYPE = DDR4
+DDR_SIZE = 1GB_1PCS
+SWIZZLE  = T1BC
 else ifeq ("$(BOARD)", "RZG2UL_TYPE2_SMARC")
 #--------------------------------------
 # RZ/G2UL Type2 Smarc board
